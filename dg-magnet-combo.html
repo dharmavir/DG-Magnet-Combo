@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE>jQuery plugin</TITLE>
+  <META NAME="Generator" CONTENT="blogs@digitss.com">
+  <META NAME="Author" CONTENT="Dharmavirsinh Jhala">
+  <META NAME="Keywords" CONTENT="jquery, dg-magnet-combo, plugin, forms, select, combobox, smart combo, no-control-click, magic combo">
+  <META NAME="Description" CONTENT="SmartCombo' checkobx kind of behavior">
+  <style>
+  body{
+  font-family:verdana;
+  font-size:11px;
+  }
+  a{
+  color:#ff8213;
+  }
+  </style>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="jquery.dg-magnet-combo.js"></script>
+ </HEAD>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#my_list").dgSmartCombo();
+})
+</script>
+<br />
+<h1>Example Usage of dg-magnet-combo:</h1>
+<h2>
+<div><u>No Control+Click combo or list, just with your simple HTML and little jQuery magic (or magnet)</u></div>
+<i>dg-magnet-combo</i> is smart combo won't require you to provide 2 list/combo-box in user interface to have them choose options easily, Users don't need to keep <b>CTL</b> pressed while they select another option of the select-control. If you're wondering how just try this sample.
+</h2>
+<br />
+<h2> Choose anything you want, it's free today:
+<select name="my_list" id="my_list" multiple="multiple">
+  <option value="Car [Nissan Altima 2011]">Car [Nissan Altima 2011]</option>
+  <option value="Phone [Apple iPhone 4]">Phone [Apple iPhone 4]</option>
+  <option value="Desktop [Dell Alienware Area-51 ALX Desktop]">Desktop [Dell Alienware Area-51 ALX Desktop]</option>
+  <option value="Smart Phone [LG Optimus 2X]">Smart Phone [LG Optimus 2X]</option>
+  <option value="Development Tools [Microsoft Visual Studio 2010 - Ultimate Edition]">Development Tools [Microsoft Visual Studio 2010 - Ultimate Edition]</option>
+</select>
+
+</BODY>
+</HTML>

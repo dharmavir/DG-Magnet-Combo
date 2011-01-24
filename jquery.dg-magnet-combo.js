@@ -1,5 +1,5 @@
 /*!
- * jQuery JavaScript Library v1.4.4
+ * jQuery DG Magnet Combo 1.0
  * http://www.digitss.com/
  * http://blogs.digitss.com/projects/jquery-plugins/
  *
@@ -8,7 +8,7 @@
  * Copyright 2011, DiGiTSS
  * Released under the MIT, BSD, and GPL Licenses.
  *
- * Date: Mon Jan 24 
+ * Release Date: Mon Jan 25 2011
  */
 jQuery.fn.extend({
 dgSmartCombo: function()

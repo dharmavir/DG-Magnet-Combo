@@ -11,7 +11,7 @@
  * Release Date: Mon Jan 25 2011
  */
 jQuery.fn.extend({
-dgSmartCombo: function()
+dgMagnetCombo: function()
 {
 	$(this).data("dgVal",[]);
 	$(this).click( function()

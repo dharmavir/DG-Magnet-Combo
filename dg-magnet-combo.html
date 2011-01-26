@@ -21,6 +21,9 @@
 <script type="text/javascript">
 $(document).ready(function(){
 	$("#my_list").dgMagnetCombo();
+	$("#my_list option").mousedown(function(){
+	//alert("S");
+	});
 })
 </script>
 <br />
@@ -30,14 +33,18 @@ $(document).ready(function(){
 <i>dg-magnet-combo</i> is smart combo won't require you to provide 2 list/combo-box in user interface to have them choose options easily, Users don't need to keep <b>CTL</b> pressed while they select another option of the select-control. If you're wondering how just try this sample.
 </h2>
 <br />
+
 <h2> Choose anything you want, it's free today:
 <select name="my_list" id="my_list" multiple="multiple">
-  <option value="Car [Nissan Altima 2011]">Car [Nissan Altima 2011]</option>
-  <option value="Phone [Apple iPhone 4]">Phone [Apple iPhone 4]</option>
-  <option value="Desktop [Dell Alienware Area-51 ALX Desktop]">Desktop [Dell Alienware Area-51 ALX Desktop]</option>
-  <option value="Smart Phone [LG Optimus 2X]">Smart Phone [LG Optimus 2X]</option>
-  <option value="Development Tools [Microsoft Visual Studio 2010 - Ultimate Edition]">Development Tools [Microsoft Visual Studio 2010 - Ultimate Edition]</option>
+  <option value="Car">Car [Nissan Altima 2011]</option>
+  <option value="Phone">Phone [Apple iPhone 4]</option>
+  <option value="Desktop">Desktop [Dell Alienware Area-51 ALX Desktop]</option>
+  <option value="Smart Phone">Smart Phone [LG Optimus 2X]</option>
+  <option value="Development Tools">Development Tools [Microsoft Visual Studio 2010 - Ultimate Edition]</option>
 </select>
-
+<div>
+<textarea id="d" rows="20" cols="100">
+</textarea>
+<div>
 </BODY>
 </HTML>

@@ -14,13 +14,14 @@
 jQuery.fn.extend({
 dgMagnetCombo: function()
 {
-	var bControlPress;
-	$(this).data("dgVal",[]);
+	var bControlPress; // Maintain Control state	
+	$(this).data("dgVal", $(this).val() || []); // Set selected values on load if any (reported by fflavio)
 	$(this).click( function()
 	{
 		var sTop	=	this.scrollTop;
 		var oVal	=	$(this).data("dgVal") || [];
 		var nVal	=	$(this).val();
+
 		if(bControlPress != true)
 		{			
 			if(nVal.length > 0)
@@ -80,7 +81,7 @@ dgMagnetCombo: function()
 				});
 				$(this).val(oVal);
 			}
-			bControlPress = false;		
+			bControlPress = false;
 		}
 		else
 		{

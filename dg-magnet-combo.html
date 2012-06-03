@@ -1,11 +1,11 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML>
- <HEAD>
-  <TITLE>jQuery plugin</TITLE>
-  <META NAME="Generator" CONTENT="blogs@digitss.com">
-  <META NAME="Author" CONTENT="Dharmavirsinh Jhala">
-  <META NAME="Keywords" CONTENT="jquery, dg-magnet-combo, plugin, forms, select, combobox, smart combo, no-control-click, magic combo">
-  <META NAME="Description" CONTENT="SmartCombo' checkobx kind of behavior">
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>jQuery plugin - DG Magnet Combo</title>
+  <meta NAME="Generator" CONTENT="blogs@digitss.com">
+  <meta NAME="Author" CONTENT="Dharmavirsinh Jhala">
+  <meta NAME="Keywords" CONTENT="jquery, dg-magnet-combo, plugin, forms, select, combobox, smart combo, no-control-click, magic combo">
+  <meta NAME="Description" CONTENT="SmartCombo' checkobx kind of behavior">
   <style>
   body{
   font-family:verdana;
@@ -17,11 +17,11 @@
   </style>
   <script type="text/javascript" src="jquery.js"></script>
   <script type="text/javascript" src="jquery.dg-magnet-combo.js"></script>
- </HEAD>
+ </head>
 <script type="text/javascript">
 $(document).ready(function(){
-	$("#my_list").dgMagnetCombo();
-	$("#my_list option").mousedown(function(){
+	$("select").dgMagnetCombo();
+	$("select option").mousedown(function(){
 	//alert("S");
 	});
 })
@@ -36,7 +36,15 @@ $(document).ready(function(){
 
 <h2> Choose anything you want, it's free today:
 <select name="my_list" id="my_list" multiple="multiple">
-  <option value="Car">Car [Nissan Altima 2011]</option>
+  <option value="Car" >Car [Nissan Altima 2011]</option>
+  <option value="Phone">Phone [Apple iPhone 4]</option>
+  <option value="Desktop">Desktop [Dell Alienware Area-51 ALX Desktop]</option>
+  <option value="Smart Phone">Smart Phone [LG Optimus 2X]</option>
+  <option value="Development Tools">Development Tools [Microsoft Visual Studio 2010 - Ultimate Edition]</option>
+</select>
+
+<select name="my_list2" id="my_list2" multiple="multiple">
+  <option value="Car" >Car [Nissan Altima 2011]</option>
   <option value="Phone">Phone [Apple iPhone 4]</option>
   <option value="Desktop">Desktop [Dell Alienware Area-51 ALX Desktop]</option>
   <option value="Smart Phone">Smart Phone [LG Optimus 2X]</option>
@@ -46,5 +54,5 @@ $(document).ready(function(){
 <textarea id="d" rows="20" cols="100">
 </textarea>
 <div>
-</BODY>
-</HTML>
+</body>
+</html>

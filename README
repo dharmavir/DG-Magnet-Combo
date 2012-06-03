@@ -1,4 +1,4 @@
-DG-Magnet-Combo 1.0
+DG-Magnet-Combo 1.2
 -------------------
 
 This is jQuery plugin which makes web-application developer and users' life easy as it won't require you to CTL+Click while using multi-select html list/combo controls.
@@ -13,4 +13,19 @@ http://blogs.digitss.com
 http://blogs.digitss.com/projects/jquery-plugins/
 
 Please feel free to submit issues on Git repository and comment on the blog if you like this plugin.
-Share your story at http://blogs.digitss.com/javascript/jquery-javascript/jquery-magnet-multi-select-list/
+Watchout demo or share your story at http://blogs.digitss.com/javascript/jquery-javascript/jquery-magnet-multi-select-list/ 
+
+Please feel free to fork if you think you can improve this or accomplish the TODO tasks.
+
+TODO:
+-----
+ - need to make it work with shift key for mass selection and navigation after that.
+
+Revision History:
+----------------
+1.2 jQuery compatibility
+ - for compatibility with jQuery 1.6 and newer, replaced attr() with new function prop().
+ - corrected version info in README and added revision history.
+1.1 Bug fix
+ - There was a bug which was affecting another combobox selection when they were having duplicate (same) values for one or more SELECT > OPTIONs.
+1.0 Initial release: 26 Jan 2011
